@@ -91,6 +91,8 @@
                 <a
                   {% if block.settings.button_link == blank %}
                     role="link" aria-disabled="true"
+                  {% elsif block.settings.button_link_download != blank %}
+                    href="{{ block.settings.button_link_download }}" target="_blank" download
                   {% else %}
                     href="{{ block.settings.button_link }}"
                   {% endif %}
@@ -377,6 +379,11 @@
           "type": "url",
           "id": "button_link",
           "label": "t:sections.multirow.blocks.row.settings.button_link.label"
+        },
+        {
+          "type": "url",
+          "id": "button_link_download",
+          "label": "file download url"
         }
       ]
     }
