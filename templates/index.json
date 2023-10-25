@@ -1,15 +1,253 @@
 {
   "sections": {
-    "ff369500-b8fd-4c6f-bc5d-771fc123dafd": {
-      "type": "top--accordion",
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Melbourne based Shopify Expert",
+            "heading_size": "h0"
+          }
+        },
+        "a4d1554f-505c-4cba-bea9-8234d47dd9ed": {
+          "type": "text",
+          "settings": {
+            "text": "Your Ecommerce with me",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Contact",
+            "button_link_1": "shopify:\/\/pages\/contact",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "a4d1554f-505c-4cba-bea9-8234d47dd9ed",
+        "button"
+      ],
       "settings": {
-        "bgColor": "",
-        "margin": "",
-        "padding": ""
+        "image": "shopify:\/\/shop_images\/top__fv_yuya_with_comments.jpg",
+        "image_overlay_opacity": 20,
+        "image_height": "large",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "image_behavior": "zoom-in",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "61bdbb65-6395-466a-949e-0abf57bfe80c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16965561024732__61bdbb65-6395-466a-949e-0abf57bfe80c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Growth Ecommerce with me",
+            "heading_size": "h1"
+          }
+        },
+        "template--16965561024732__61bdbb65-6395-466a-949e-0abf57bfe80c-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>I would like to improve your store together!<\/p>"
+          }
+        },
+        "template--16965561024732__61bdbb65-6395-466a-949e-0abf57bfe80c-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact",
+            "button_link": "shopify:\/\/pages\/contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16965561024732__61bdbb65-6395-466a-949e-0abf57bfe80c-heading-1",
+        "template--16965561024732__61bdbb65-6395-466a-949e-0abf57bfe80c-text-1",
+        "template--16965561024732__61bdbb65-6395-466a-949e-0abf57bfe80c-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "addf752f-847e-4b59-932e-f614df4058e8": {
+      "type": "multirow",
+      "blocks": {
+        "template--16965561024732__addf752f-847e-4b59-932e-f614df4058e8-row-1": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_0783.jpg",
+            "caption": "",
+            "heading": "Profile",
+            "text": "<ul><li>Birth: Aprir, 1997<\/li><li>Nationality: Japan<\/li><li>Everyday black clothes<\/li><li>Coffee, Wine<\/li><li>Tennis, Running, Surfing, AFL, Rugby<\/li><li>My belief \"Helpful for you\"<\/li><\/ul>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--16965561024732__addf752f-847e-4b59-932e-f614df4058e8-row-2": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/business-meeting-over-coffee.jpg",
+            "caption": "",
+            "heading": "Works",
+            "text": "<p>I have experiment over 30 Shopify stores including 12 Shopify Plus Stores.<br\/>This list excludes stores that should be contractually secret.<\/p>",
+            "button_label": "Show",
+            "button_link": "shopify:\/\/blogs\/works"
+          }
+        },
+        "template--16965561024732__addf752f-847e-4b59-932e-f614df4058e8-row-3": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/resume-checklist-next-to-laptop.jpg",
+            "caption": "",
+            "heading": "Resume",
+            "text": "<p>Preparing download button...<\/p>",
+            "button_label": "Show",
+            "button_link": "shopify:\/\/pages\/resume"
+          }
+        }
+      },
+      "block_order": [
+        "template--16965561024732__addf752f-847e-4b59-932e-f614df4058e8-row-1",
+        "template--16965561024732__addf752f-847e-4b59-932e-f614df4058e8-row-2",
+        "template--16965561024732__addf752f-847e-4b59-932e-f614df4058e8-row-3"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "c2e73252-0a01-4b0b-83de-5a083e3f9f94": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16965561024732__c2e73252-0a01-4b0b-83de-5a083e3f9f94-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "Experiment",
+            "text": "<ul><li>30+ Shopify Stores, including 12 Shopify Plus Stores<\/li><li>Founded Shopify Experts company in Japan<\/li><li>Making a new function without Shopify app<\/li><\/ul>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16965561024732__c2e73252-0a01-4b0b-83de-5a083e3f9f94-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "Shopify skills",
+            "text": "<ul><li>Making Section or snippets<\/li><li>Json templates<\/li><li>Metafield, MetaObject<\/li><li>Cart attributes<\/li><li>Line Item Property<\/li><li>Storefront API<\/li><li>Flow or other Shopify apps<\/li><\/ul><p><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16965561024732__c2e73252-0a01-4b0b-83de-5a083e3f9f94-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "Programming Languages",
+            "text": "<ul><li>HTML, CSS, Tailwind CSS<\/li><li>JavaScript, jQuery<\/li><li>React, Next.js<\/li><li>TypeScript<\/li><li>Python<\/li><li>Flutter<\/li><li>ShellScript<\/li><\/ul>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16965561024732__c2e73252-0a01-4b0b-83de-5a083e3f9f94-column-2",
+        "template--16965561024732__c2e73252-0a01-4b0b-83de-5a083e3f9f94-column-3",
+        "template--16965561024732__c2e73252-0a01-4b0b-83de-5a083e3f9f94-column-1"
+      ],
+      "settings": {
+        "title": "Skills",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "be3f90c1-5da2-4daa-a166-c7e6c27d21b7": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16965561024732__be3f90c1-5da2-4daa-a166-c7e6c27d21b7-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Information",
+            "heading_size": "h1"
+          }
+        },
+        "template--16965561024732__be3f90c1-5da2-4daa-a166-c7e6c27d21b7-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>📞 0434997115<br\/>✉️ yuya.wada.san@gmail.com<br\/>🏠 Northcote, VIC 3070<br\/><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16965561024732__be3f90c1-5da2-4daa-a166-c7e6c27d21b7-heading-1",
+        "template--16965561024732__be3f90c1-5da2-4daa-a166-c7e6c27d21b7-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "56176392-36e4-4070-b480-393b3e5eb461": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Contact form",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
-    "ff369500-b8fd-4c6f-bc5d-771fc123dafd"
+    "image_banner",
+    "61bdbb65-6395-466a-949e-0abf57bfe80c",
+    "addf752f-847e-4b59-932e-f614df4058e8",
+    "c2e73252-0a01-4b0b-83de-5a083e3f9f94",
+    "be3f90c1-5da2-4daa-a166-c7e6c27d21b7",
+    "56176392-36e4-4070-b480-393b3e5eb461"
   ]
 }

@@ -28,7 +28,7 @@
 
 .article-card__title a:after {
   bottom: 0;
-  content: "";
+  content: '';
   height: 100%;
   left: 0;
   position: absolute;
@@ -76,8 +76,6 @@
 .article-card__excerpt {
   width: 100%;
   margin-top: 1.2rem;
-  max-height: 5rem;
-  overflow: hidden;
 }
 
 .article-card__link:not(:only-child) {
