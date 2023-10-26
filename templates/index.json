@@ -87,7 +87,8 @@
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 52,
+        "background_color": "#f3f3f3"
       }
     },
     "addf752f-847e-4b59-932e-f614df4058e8": {
@@ -101,7 +102,8 @@
             "heading": "Profile",
             "text": "<ul><li>Birth: Aprir, 1997<\/li><li>Nationality: Japan<\/li><li>Everyday black clothes<\/li><li>Coffee, Wine<\/li><li>Tennis, Running, Surfing, AFL, Rugby<\/li><li>My belief \"Helpful for you\"<\/li><\/ul>",
             "button_label": "",
-            "button_link": ""
+            "button_link": "",
+            "button_link_download": ""
           }
         },
         "template--16965561024732__addf752f-847e-4b59-932e-f614df4058e8-row-2": {
@@ -112,7 +114,8 @@
             "heading": "Works",
             "text": "<p>I have experiment over 30 Shopify stores including 12 Shopify Plus Stores.<br\/>This list excludes stores that should be contractually secret.<\/p>",
             "button_label": "Show",
-            "button_link": "shopify:\/\/blogs\/works"
+            "button_link": "shopify:\/\/blogs\/works",
+            "button_link_download": ""
           }
         },
         "template--16965561024732__addf752f-847e-4b59-932e-f614df4058e8-row-3": {
@@ -121,9 +124,10 @@
             "image": "shopify:\/\/shop_images\/resume-checklist-next-to-laptop.jpg",
             "caption": "",
             "heading": "Resume",
-            "text": "<p>Preparing download button...<\/p>",
-            "button_label": "Show",
-            "button_link": "shopify:\/\/pages\/resume"
+            "text": "<p>Open Link in New Tab<\/p>",
+            "button_label": "Download",
+            "button_link": "shopify:\/\/pages\/resume",
+            "button_link_download": "https:\/\/cdn.shopify.com\/s\/files\/1\/0645\/5151\/8428\/files\/resume_yuya_wada_Oct_2023.pdf?v=1698225697"
           }
         }
       },
@@ -144,7 +148,7 @@
         "section_color_scheme": "",
         "row_color_scheme": "",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
+        "padding_top": 72,
         "padding_bottom": 36
       }
     },
@@ -228,7 +232,8 @@
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 52,
+        "background_color": "#f3f3f3"
       }
     },
     "56176392-36e4-4070-b480-393b3e5eb461": {

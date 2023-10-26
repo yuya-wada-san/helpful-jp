@@ -244,14 +244,14 @@
     },
     "contact": {
       "form": {
-        "name": "名前",
-        "email": "メール",
-        "phone": "電話番号",
-        "comment": "コメント",
-        "send": "送信する",
-        "post_success": "お問い合わせいただきありがとうございます。早急に返信いたします。",
-        "error_heading": "以下を確認してください。",
-        "title": "お問い合わせフォーム"
+        "name": "Name",
+        "email": "Email",
+        "phone": "Phone number",
+        "comment": "Comment",
+        "send": "Send",
+        "post_success": "Thanks for contacting me. I'll get back to you as soon as possible.",
+        "error_heading": "Please adjust the following.",
+        "title": "Contact Form"
       }
     },
     "404": {
