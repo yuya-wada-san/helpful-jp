@@ -4,7 +4,7 @@
   assign urlNotion = "https://www.notion.so/Your-Name-db7f6f4af9a64534a77495922a4595c9?pvs=4"
   assign urlFaceBook = "https://www.facebook.com/profile.php?id=100091746930736"
   assign urlLinkedIn = "https://www.linkedin.com/in/yuya-wada-136458271/"
-  assign urlGithub = "https://github.com/ruru9yoonsic/helpful-jp/blob/main/sections/top--accordion.liquid"
+  assign urlGithub = "https://github.com/yuya-wada-san/helpful-jp/blob/main/sections/original-introduction-accordion.liquid"
   assign btnSwitchToHaruna = "top__switch_to_haruna.png" | file_url
   assign btnSwitchToYuya = "top__switch_to_yuya.png" | file_url
 %}
@@ -238,6 +238,7 @@
     });
     
     {% comment %} Accordion open and close {% endcomment %}
+    $('.top--accordion-content').hide();
     $('.top--accordion-header').click(function() {
       var $accordionButton = $(this).find('svg');
       var rotation = $accordionButton.data('rotation') || 0;
