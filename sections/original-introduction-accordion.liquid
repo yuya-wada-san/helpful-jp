@@ -1,0 +1,253 @@
+{% liquid
+  comment URL initialized
+  endcomment
+  assign urlNotion = "https://www.notion.so/Your-Name-db7f6f4af9a64534a77495922a4595c9?pvs=4"
+  assign urlFaceBook = "https://www.facebook.com/profile.php?id=100091746930736"
+  assign urlLinkedIn = "https://www.linkedin.com/in/yuya-wada-136458271/"
+  assign urlGithub = "https://github.com/ruru9yoonsic/helpful-jp/blob/main/sections/top--accordion.liquid"
+  assign btnSwitchToHaruna = "top__switch_to_haruna.png" | file_url
+  assign btnSwitchToYuya = "top__switch_to_yuya.png" | file_url
+%}
+
+{% comment %} Layout {% endcomment %}
+<section class="wrapper--{{ section.id }}">
+  <div data-name="yuya" class="inner--{{ section.id }}">
+    <img src="{{ 'top__fv_yuya_with_comments.jpg' | file_url }}" alt="yuya" width="100%" height="100%">
+    <ul class="top--accordion">
+      <li class="top--accordion-item">
+        <h3 class="top--accordion-header">Profile {% render 'svg-list', name: 'accordionArrow' %}</h3>
+        <div class="top--accordion-content">
+          <div class="top--accordion-content-grid">
+            <dt>Name</dt>
+            <dd>Yuya Wada</dd>
+            <dt>Birthday</dt>
+            <dd>April, 1997</dd>
+            <dt>Hobby</dt>
+            <dd>Tennis / Surfing / Bouldering / Poker / NFL / Cooking / Coffee</dd>
+            <dt>Job</dt>
+            <dd>Shopify front-end developer</dd>
+            <dt>Skill</dt>
+            <dd>HTML / CSS / Liquid / JavaScript (jQuery) / React (Next.js) / TypeScript / Python</dd>
+            <dt>Code</dt>
+            <dd><a href="{{ urlGithub }}" target="_blank">{% render 'svg-list', name: 'logoGitHub' %}</a></dd>
+          </div>
+        </div>
+      </li>
+      <li class="top--accordion-item">
+        <h3 class="top--accordion-header">Works {% render 'svg-list', name: 'accordionArrow' %}</h3>
+        <div class="top--accordion-content">
+          {% for article in blogs['works'].articles reversed %}
+            <a href="{{ article.url }}" target="_blank">
+              <img src="{{ article.image | img_url: 'medium' }}">
+              <p>
+                {%- if article.metafields.english.title != blank -%}
+                  {{ article.metafields.english.title }}
+                {%- else -%}
+                  {{ article.title }}
+                {%- endif -%}
+              </p>
+            </a>
+          {% endfor %}
+          <span class="top--accordion-content-scroll">scroll →</span>
+        </div>
+      </li>
+      <li class="top--accordion-item">
+        <h3 class="top--accordion-header">Cover Letter {% render 'svg-list', name: 'accordionArrow' %}</h3>
+        <div class="top--accordion-content">
+          <div class="top--accordion-content-grid">
+            <dt>Link</dt>
+            <dd class="top--accordion-content-grid-notion">
+              <a href="{{ urlNotion }}" target="_blank">{% render 'svg-list', name: 'logoNotion' %}</a>
+            </dd>
+          </div>
+        </div>
+      </li>
+      <li class="top--accordion-item">
+        <h3 class="top--accordion-header">Contact {% render 'svg-list', name: 'accordionArrow' %}</h3>
+        <div class="top--accordion-content">
+          <div class="top--accordion-content-grid">
+            <dt>Email</dt>
+            <dd>yuya.wada.san@gmail.com</dd>
+            <dt>Facebook</dt>
+            <dd class="top--accordion-content-grid-facebook">
+              <a href="{{ urlFaceBook }}" target="_blank">{% render 'svg-list', name: 'logoFaceBook' %}</a>
+            </dd>
+            <dt>LinkedIn</dt>
+            <dd class="top--accordion-content-grid-linkedin">
+              <a href="{{ urlLinkedIn }}" target="_blank">{% render 'svg-list', name: 'logoLinkedIn' %}</a>
+            </dd>
+          </div>
+        </div>
+      </li>
+      <li class="top--accordion-item">
+        <h3 class="top--accordion-header">Message {% render 'svg-list', name: 'accordionArrow' %}</h3>
+        <div class="top--accordion-content">
+          <p>
+            My motto is <span>"Helpful for you"</span><br>
+            If you need help with Shopify, I would be happy to assist you.<br>
+            I have <span>over 3 years</span> of experience in Shopify and have obtained <span>Shopify Experts</span><br>
+            This website is also a fully customized site using Shopify. <br>
+            Thank you for visiting me.<br>
+            Much appreciated!
+          </p>
+        </div>
+      </li>
+    </ul>    
+  </div>
+
+  {% comment %} Haruna {% endcomment %}
+  <div data-name="haruna" class="inner--{{ section.id }}">
+    <img src="https://cdn.shopify.com/s/files/1/0645/5151/8428/files/image_6.png?v=1666529708" alt="haruna" width="100%" height="100%">
+    <ul class="top--accordion">
+      <li class="top--accordion-item">
+        <h3 class="top--accordion-header">Profile {% render 'svg-list', name: 'accordionArrow' %}</h3>
+        <div class="top--accordion-content">
+          <div class="top--accordion-content-grid">
+            <dt>Name</dt>
+            <dd>Haruna Fukuyama</dd>
+            <dt>Birthday</dt>
+            <dd>June, 1995</dd>
+            <dt>Hobby</dt>
+            <dd>Take a work / watching dramas on Netflix</dd>
+            <dt>Job</dt>
+            <dd>designer / secretary / restaurant staff</dd>
+            <dt>Skills</dt>
+            <dd>illustration / Photoshop / Figma / HTML / CSS</dd>
+          </div>
+        </div>
+      </li>
+      <li class="top--accordion-item">
+        <h3 class="top--accordion-header">Site {% render 'svg-list', name: 'accordionArrow' %}</h3>
+        <div class="top--accordion-content">
+          <p>
+            <a href="https://haruportfolio.studio.site" target="_blank">https://haruportfolio.studio.site</a>
+          </p>
+        </div>
+      </li>
+      <li class="top--accordion-item">
+        <h3 class="top--accordion-header">Resume {% render 'svg-list', name: 'accordionArrow' %}</h3>
+        <div class="top--accordion-content">
+          <div class="top--accordion-content-grid">
+            <dt>Link</dt>
+            <dd>Coming Soon...</dd>
+          </div>
+        </div>
+      </li>
+      <li class="top--accordion-item">
+        <h3 class="top--accordion-header">Contact {% render 'svg-list', name: 'accordionArrow' %}</h3>
+        <div class="top--accordion-content">
+          <div class="top--accordion-content-grid">
+            <dt>E-mail</dt>
+            <dd>h.fukuyama10@gmail.com</dd>
+            <dt>Facebook</dt>
+            <dd class="top--accordion-content-grid-facebook">
+              <a href="https://www.facebook.com/profile.php?id=100091660504547" target="_blank">{% render 'svg-list', name: 'logoFaceBook' %}</a>
+            </dd>
+          </div>
+        </div>
+      </li>
+    </ul>    
+  </div>
+</section>
+{% comment %} Switch Button {% endcomment %}
+<div class="top--btn-switch">
+  <img src="{{ btnSwitchToHaruna }}" width="100" height="100">
+</div>
+
+
+{% schema %}
+{
+  "name": "original intro accordion",
+  "settings": [
+    {
+      "type": "color",
+      "id": "bgColor",
+      "label": "back ground color"
+    },{
+      "type": "text",
+      "id": "margin",
+      "label": "margin:"
+    },{
+      "type": "text",
+      "id": "padding",
+      "label": "padding:"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Original intro accordion"
+    }
+  ]
+}
+{% endschema %}
+
+{% render 'style-original-accordion' %}
+
+<script>
+  $(document).ready(function() {
+
+    {% comment %} only person view {% endcomment %}
+    function getParam(name, url) {
+      if (!url) url = window.location.href;
+      name = name.replace(/[\[\]]/g, "\\$&");
+      var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+          results = regex.exec(url);
+      if (!results) return null;
+      if (!results[2]) return '';
+      return decodeURIComponent(results[2].replace(/\+/g, " "));
+    }
+
+    const $topBtnSwitch = $('.top--btn-switch'),
+          $yuya = $('[data-name="yuya"]'),
+          $haruna = $('[data-name="haruna"]');
+
+    {% comment %} show first contents {% endcomment %}
+    const viewParam = getParam('v');
+    if(viewParam && viewParam == 'yuya') {    
+      $topBtnSwitch.hide();
+      $yuya.show();
+    }else if(viewParam && viewParam == 'haruna'){  
+      $topBtnSwitch.hide();
+      $yuya.hide();
+      $haruna.show();
+    }else{
+      $haruna.hide();
+      $yuya.show();
+    }
+
+    {% comment %} declaration switch btn image src {% endcomment %}
+    const imgSrcToYuya = "{{ btnSwitchToYuya }}",
+          imgSrcToHaruna = "{{ btnSwitchToHaruna }}";
+
+    {% comment %} Switch Profile {% endcomment %}
+    $topBtnSwitch.on('click', function() {
+      var currentImgSrc = $(this).children('img').attr('src');
+
+      {% comment %} haruna to yuya {% endcomment %}
+      if(currentImgSrc == imgSrcToYuya) {
+        $(this).children('img').attr('src', imgSrcToHaruna);
+        $haruna.hide();
+        $yuya.fadeIn();
+
+      {% comment %} yuya to haruna {% endcomment %}
+      }else if (currentImgSrc == imgSrcToHaruna) {
+        $(this).children('img').attr('src', imgSrcToYuya);
+        $yuya.hide();
+        $haruna.fadeIn();
+      }
+    });
+    
+    {% comment %} Accordion open and close {% endcomment %}
+    $('.top--accordion-header').click(function() {
+      var $accordionButton = $(this).find('svg');
+      var rotation = $accordionButton.data('rotation') || 0;
+      rotation += 180;
+      $accordionButton.css('transform', 'rotate(' + rotation + 'deg)');
+      $accordionButton.data('rotation', rotation);
+    
+      $(this).toggleClass('active');
+      $(this).next('.top--accordion-content').slideToggle();
+    });
+    
+  });
+</script>
