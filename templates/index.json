@@ -106,6 +106,18 @@
             "button_link_download": ""
           }
         },
+        "2d8f71e3-228a-4577-94fe-b370835d8d73": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/developer-coding-in-php.jpg",
+            "caption": "Introduction",
+            "heading": "Coding Skills",
+            "text": "<p>This is a part of my basic coding skills.<\/p><p>You can watch the introduction video.<\/p>",
+            "button_label": "Watch",
+            "button_link": "shopify:\/\/pages\/coding-skills",
+            "button_link_download": ""
+          }
+        },
         "template--16965561024732__addf752f-847e-4b59-932e-f614df4058e8-row-2": {
           "type": "row",
           "settings": {
@@ -133,6 +145,7 @@
       },
       "block_order": [
         "template--16965561024732__addf752f-847e-4b59-932e-f614df4058e8-row-1",
+        "2d8f71e3-228a-4577-94fe-b370835d8d73",
         "template--16965561024732__addf752f-847e-4b59-932e-f614df4058e8-row-2",
         "template--16965561024732__addf752f-847e-4b59-932e-f614df4058e8-row-3"
       ],

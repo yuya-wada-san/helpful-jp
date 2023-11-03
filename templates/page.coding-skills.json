@@ -7,6 +7,21 @@
         "padding_bottom": 28
       }
     },
+    "ad42ad76-21a1-44d5-af6a-ad2fd0079fa3": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=SqLYu_mweZc",
+        "cover_image": "shopify:\/\/shop_images\/introducing_my_coding_skills.png",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 32
+      }
+    },
     "3683ea6a-7d40-4076-a744-b2b71719ff29": {
       "type": "original-introduction-accordion",
       "settings": {
@@ -14,10 +29,21 @@
         "margin": "",
         "padding": "30px 0"
       }
+    },
+    "eb5ebd1d-285a-4d94-9fbf-cc6e748565cb": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% style %}\n.video-section {\nmax-width: 830px;\n}\n{% endstyle %}",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "main",
-    "3683ea6a-7d40-4076-a744-b2b71719ff29"
+    "ad42ad76-21a1-44d5-af6a-ad2fd0079fa3",
+    "3683ea6a-7d40-4076-a744-b2b71719ff29",
+    "eb5ebd1d-285a-4d94-9fbf-cc6e748565cb"
   ]
 }
