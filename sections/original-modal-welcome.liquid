@@ -1,0 +1,70 @@
+<section class="section--{{ section.id }}" id="section--{{ section.id }}">
+  <div class="card-wrapper">
+    <h3>What is your purpose?</h3>
+    <div class="card-button-wrapper">
+      <a data-next="close">Watch profile</a>
+      <a href="/pages/coding-skills">Check coding skills</a>
+      <a href="/pages/coding-skills">Get resume</a>
+      <a href="/pages/contact">Contact me</a>
+    </div>
+    <button class="button-close">Close</button>
+  </div>
+</section>
+
+
+{% schema %}
+{
+  "name": "original modal welcome",
+  "settings": [
+    {
+      "type": "text",
+      "id": "margin",
+      "label": "margin:"
+    },{
+      "type": "text",
+      "id": "padding",
+      "label": "padding:"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Original modal welcome"
+    }
+  ]
+}
+{% endschema %}
+
+
+{% render 'style-original-modal-welcome' %}
+
+
+<script>
+  $(function() {
+    const $cardWrapper = $('.section--{{ section.id }}');
+
+    {% comment %} Close Modal {% endcomment %}
+    const CloseModal = () => {
+      $cardWrapper.fadeOut();
+    };
+
+    {% comment %} Click outside modal {% endcomment %}
+    $(document).on('click', function(e) {
+      if (!$(e.target).closest('.section--{{ section.id }} .card-wrapper').length) {
+        CloseModal();
+      }
+    });
+
+    {% comment %} Click close button {% endcomment %}
+    $('.button-close').on('click', function(){
+      CloseModal();
+    });
+
+    {% comment %} Select Close choise {% endcomment %}
+    $('.section--{{ section.id }} .card-wrapper a').on('click', function(){
+      const dataNext = $(this).data('next');
+      if(dataNext == 'close') {
+        CloseModal();
+      }
+    });
+  });
+</script>
